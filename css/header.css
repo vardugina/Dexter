@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 16px;
+}
+
+.header {
+	width:100%;			
+	height: 1000px;
+	background: url("../img/bg.png") no-repeat center bottom;
+	background-color: #00a3e4;
+	position: relative;
+	color: #ffffff;
+}
+
+.row {  
+	width: 100%;
+  	max-width: 1200px;
+  	margin: 0 auto;
+    position: relative;	
+}
+
+.logo {
+	padding-top: 45px;
+	margin-left: auto;	
+}
+
+.lab-logo {
+	float: left;	
+}
+
+.lab {
+	font-size: 1.5em;	
+	font-weight: 700;
+	font-style: italic;
+}
+
+.row.row-big {	
+	padding-top: 250px;
+	padding-bottom: 200px;
+	height: 655px;
+}
+
+.info {
+	width: 250px;
+	letter-spacing: 2px;
+}
+
+.dex-lab {
+	width: 460px;
+	height: 120px;
+	font-size: 3.5em;
+}
+
+.lab-info {
+	padding-top: 40px;
+	font-size: 18px;
+	width: 500px;
+	padding-bottom: 40px;
+}
+
+button {
+	width: 190px;
+	height: 60px;
+	border-radius: 4px;
+	background-color: #49b9e6;
+	border: none;
+	margin-bottom: 195px;
+	color: #ffffff;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.1em;
+	font-weight: 700;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.header-bottom {
+	background-color: rgba(0, 147, 205, 0.3);
+	line-height: 204px;
+	height: 204px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.phone {
+	display: inline-block;
+  	position: absolute;
+  	right:  50px;
+  	bottom: 85px;
+  	height: 780px;
+  	width:  370px;
+}
+
+.icon {
+	height: 490px;
+	background-color: #0084b8;
+}
