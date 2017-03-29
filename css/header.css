@@ -9,7 +9,7 @@
 .header {
 	width:100%;			
 	height: 1000px;
-	background: url("../img/bg.png") no-repeat center bottom;
+	background: url("../img/bg.png") no-repeat center top;
 	background-color: #00a3e4;
 	position: relative;
 	color: #ffffff;
@@ -49,7 +49,7 @@
 }
 
 .dex-lab {
-	width: 460px;
+	width: 470px;
 	height: 120px;
 	font-size: 3.5em;
 }
@@ -78,8 +78,8 @@ button {
 
 .header-bottom {
 	background-color: rgba(0, 147, 205, 0.3);
-	line-height: 204px;
-	height: 204px;
+    line-height: 210px;
+    height: 210px;
 	position: absolute;
 	left: 0;
 	right: 0;
