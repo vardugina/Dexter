@@ -93,33 +93,24 @@
 	background-color: #ecf0f1;
 	
 }
-	
-
-
-.characters p {
-	text-align: center;
-	width: 210px;
-}
 
 .characters-description {
-	width: 100%;
-  	max-width: 1200px;
-  	margin: 0 auto;
   	padding-top: 130px;
 }
 
-.dexter {
+.character {
 	display: inline-block;
+	vertical-align: top;
 	width: 33%;
-}
-		
-
-.sister {	
-	display: inline-block;
-	width: 33%;		
+	text-align: center;
 }
 
-.rival {	
-	display: inline-block;
-	max-width: 33%;
+.character p {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.img-pull-left {
+	position: relative;
+	left: -40px;
 }
