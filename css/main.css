@@ -1,0 +1,125 @@
+
+.people {
+	width: 100%;
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	color: #000000;
+  	font-family: 'Asap', sans-serif;
+  }
+	
+.ginger {height: 700px;
+}
+
+
+.ginger-img {
+	display: block;
+	float: left;
+	padding-top: 203px;
+}
+
+.about-ginger {
+	width: 50%;
+	float: right;	
+}
+
+.about-ginger h1 {
+	font-size: 55px;
+	font-weight: 700;
+	padding-top: 150px;
+	padding-bottom: 30px;		
+}
+
+.description {
+	font-size: 18px;
+	padding-bottom: 40px;	
+}
+
+.mandark-mini {
+	margin-bottom: 25px;
+	background-color: #edf1f2;
+	width: 490px;
+	height: 222px;
+	border-radius: 10px;
+	padding: 40px ;
+	line-height: 30px;
+	text-align: left;
+	font-size: 18px;
+	font-style: italic;
+	position: relative;
+}
+
+.speech {
+	opacity: 0.6;
+}
+
+.mandark-mini-img {
+	position: absolute;
+	display: inline-block;
+	right:  -40px;
+  	bottom: -40px;
+  	height: 100px;
+  	width:  100px;	
+}
+
+.about-ginger a {
+	text-decoration: none;
+	color: #00a4e5;
+	padding-left: 30px;
+}
+
+.dee {
+	height: 650px;	
+}
+.about-dee {
+	width: 50%;
+	float: left;
+
+}
+
+.about-dee h1 {
+	font-size: 55px;
+	font-weight: 700;
+	padding-bottom: 30px;		
+}
+
+
+.dee-big-img {
+	display: block;
+	float: right;
+}
+
+.characters {
+	height: 875px;
+	background-color: #ecf0f1;
+	
+}
+	
+
+
+.characters p {
+	text-align: center;
+	width: 210px;
+}
+
+.characters-description {
+	width: 100%;
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	padding-top: 130px;
+}
+
+.dexter {
+	display: inline-block;
+	width: 33%;
+}
+		
+
+.sister {	
+	display: inline-block;
+	width: 33%;		
+}
+
+.rival {	
+	display: inline-block;
+	max-width: 33%;
+}

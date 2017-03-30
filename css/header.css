@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	font-family: 'Asap', sans-serif;
 	font-size: 16px;
 }
@@ -96,6 +99,33 @@ button {
 }
 
 .icon {
+
 	height: 490px;
 	background-color: #0084b8;
+	}
+
+ul {width: 100%;
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	padding-top: 135px;
 }
+
+
+.stuff {
+	display: inline-block;
+	text-align: center;
+	width: 33%
+	}
+
+.stuff h1  {
+	color: #ffffff;
+	font-size: 3.5em;
+	letter-spacing: 2px;
+	}
+
+.stuff p {
+	
+	color: #ffffff;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	}
