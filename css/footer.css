@@ -1,0 +1,74 @@
+
+.like-and-share {
+	background-color: #f1c40f;
+}
+
+
+.like-us{
+	height: 150px;
+	line-height: 150px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+.demand-block {
+	text-align: center;
+}
+	
+
+.dick {
+	display: inline-block;
+	margin-right: 30px; 
+}
+
+.dribble {
+	position: relative;
+	top: 8px;
+}
+
+
+.footer {
+	background-color: #d8af0c;
+	height: 245px;
+	width: 100%;
+}
+
+.contact-container {
+	 background: url("../img/footer.png") no-repeat;
+	 height: 245px;	
+	}
+
+
+.contact {
+	display: inline-block;
+	width: 33%;
+	margin-top: 70px;	
+}
+
+.contact-info {
+	display: inline-block;
+	width: 70%;
+	float: right;
+}
+
+.main-contact {
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	line-height: 30px;	
+}
+
+.contact-us {
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 30px;	
+}
+	
+.address {
+	position: relative;
+	left: 55px;
+}

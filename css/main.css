@@ -67,20 +67,22 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: #0084b8;
+	text-decoration: underline;
 }
 
-.about-ginger a {
+.about-ginger > a
+{
 	padding-left: 30px;
 }
 
 .dee {
 	height: 650px;	
 }
+
 .about-dee {
 	width: 50%;
 	float: left;
-
 }
 
 .about-dee h1 {
@@ -103,7 +105,6 @@ a:hover {
 
 .characters-description {
   	padding-top: 130px;
-  	position: relative;
 }
 
 .character {
@@ -111,6 +112,8 @@ a:hover {
 	vertical-align: top;
 	width: 33%;
 	text-align: center;
+	position: relative;
+	height: 700px;
 }
 
 .character-img {
@@ -138,9 +141,15 @@ a:hover {
 	font-size: 1.1em;
 }
 
-.more {
+.character-more {
 	position: absolute;
 	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.more {
+
 }
 
 .img-pull-left {
