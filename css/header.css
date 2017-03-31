@@ -79,6 +79,10 @@ button {
 	cursor: pointer;
 }
 
+button:hover {
+	background: red;
+}
+
 .header-bottom {
 	background-color: rgba(0, 147, 205, 0.3);
     line-height: 210px;

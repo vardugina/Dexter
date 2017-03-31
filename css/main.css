@@ -61,9 +61,16 @@
   	width:  100px;	
 }
 
-.about-ginger a {
+a {
 	text-decoration: none;
 	color: #00a4e5;
+}
+
+a:hover {
+	color: red;
+}
+
+.about-ginger a {
 	padding-left: 30px;
 }
 
@@ -96,6 +103,7 @@
 
 .characters-description {
   	padding-top: 130px;
+  	position: relative;
 }
 
 .character {
@@ -105,9 +113,34 @@
 	text-align: center;
 }
 
+.character-img {
+	height: 230px;
+	margin-bottom: 35px;
+}
+
+.character h2 {
+	font-size: 2em;
+}
+
+.character h3 {
+	opacity: 0.5;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: normal;
+	padding-bottom: 50px;
+}
+
 .character p {
 	width: 210px;
+	padding-bottom: 40px;
 	margin: 0 auto;
+	opacity: 0.6;
+	font-size: 1.1em;
+}
+
+.more {
+	position: absolute;
+	bottom: 0;
 }
 
 .img-pull-left {
